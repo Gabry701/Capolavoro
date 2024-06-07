@@ -350,15 +350,17 @@ footer a {
     .paragraph {
         margin: 1rem 0px;
     }
-.image-container {
+    .image-container {
         margin:10px;
         padding: 10px;
         max-height: none;
         height: fit-content;
-        position: relative;
-        left: 50%;
-        transform: translate(-50%, 0);        
+        position: relative;          
     }  
+    .image-container .text-container {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
     .more-text {
         font-size: 1.5rem;
     }
