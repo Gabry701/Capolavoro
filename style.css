@@ -354,6 +354,7 @@ footer a {
         padding: 10px;
         max-height: none;
         height: fit-content;
+        margin: auto;
         
     }  
     .more-text {
